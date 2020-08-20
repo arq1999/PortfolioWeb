@@ -15,59 +15,47 @@
     <title>Welcome To My Portfolio</title>
   </head>
   <body>
-    <header>
-      <div class="menu-btn">
-        <div class="bt-line"></div>
-        <div class="bt-line"></div>
-        <div class="bt-line"></div>
-      </div>
-
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
+      <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>D</span>avid <span>R</span>equena</h1></a>
         </div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              My Work
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              About Me
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="/" class="nav-link">
-              Contact Me
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main id="home">
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
       <!-- Hero Section -->
       <section id="hero">
-        <h1 class="lg-heading">David <span></span></h1>
-        <h1 class="lg-heading">Requena <span></span></h1>
-        <h2 class="sm-heading">
-          Web Developer, Programmer & Keyboard lover <span></span>
-        </h2>
-        <div class="icons">
-          <a href="#!">
-            <i class="fab fa-github fa-2x"><span></span></i>
-          </a>
-          <a href="#!">
-            <i class="fab fa-linkedin fa-2x"><span></span></i>
-          </a>
-          <a href="#!">
-            <i class="fab fa-facebook fa-2x"><span></span></i>
-          </a>
+        <div class="hero container">
+          <div>
+            <h1>David <span></span></h1>
+            <h1>Requena <span></span></h1>
+            <h2>Web Developer, Programmer & Keyboard lover <span></span></h2>
+            <div class="icons">
+              <a href="#!">
+                <i class="fab fa-github fa-2x"><span></span></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-linkedin fa-2x"><span></span></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-facebook fa-2x"><span></span></i>
+              </a>
+              <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
+          </div>
         </div>
       </section>
       <!-- End Hero Section -->
